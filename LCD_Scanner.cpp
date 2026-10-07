@@ -7,7 +7,7 @@
 
 
 void setup() {
-  Serial.begin(921600);
+  Serial.begin(921600); // sesuain juga bagian ini
   Serial.println("hello ESP");
   Wire.begin(SDA_PIN, SCK_SCL_PIN); // SDA, SCK/SCL
 }
