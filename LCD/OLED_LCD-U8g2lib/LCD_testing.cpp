@@ -41,7 +41,7 @@ void setup() {
 
   lcd.begin(); //inisialisasi
   lcd.clearBuffer(); // hapus canvas, bersihin dulu
-  lcd.setFont(u8g2_font_ncenB08_tr); // pilih font
+  lcd.setFont(u8g2_font_ncenB08_tr); // pilih font | https://github.com/olikraus/u8g2/wiki/fntlistall
   lcd.drawStr(0, 10, "Hello ESP32-S3!"); // masukin teks | (x, y, <teks nya>)
   lcd.sendBuffer();  //kirim data ny
   /* 
