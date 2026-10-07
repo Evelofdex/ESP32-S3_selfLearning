@@ -56,6 +56,12 @@ void setup() {
     u8g2.setCursor(x, y);           // for .print()
     u8g2.print(value);              // like Serial.print
     u8g2.sendBuffer();              // show it!
+    
+    note di font:
+        u8g2_font_<name><height>_<style>
+    _tr / _tf suffix:
+        _tr = transparent background
+        _tf = transparent + full character set
   */
 }
 void loop() {
