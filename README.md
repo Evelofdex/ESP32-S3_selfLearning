@@ -12,3 +12,6 @@ Code: [[Led_Testing.cpp]]
 ![screenshot](./rec/2.gif)
 
 Code: [[./LCD/OLED_LCD_U8g2lib/LCD_Counter.cpp]]
+
+#### IDE: Visual Studio Code
+#### Board: ESP32-S3
